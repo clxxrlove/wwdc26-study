@@ -1,6 +1,21 @@
 # Direct Watch Guide
 
+## Before watching
+
+영상을 바로 다시 보기 전에 [`outputs/learning-guide.md`](learning-guide.md)와 [`outputs/understanding-index.md`](understanding-index.md)를 먼저 읽는다. 특히 App Attest는 [`docs/understanding/app-attest.md`](../docs/understanding/app-attest.md)를 먼저 읽고 보면 attestation/assertion/fraud metric 흐름이 훨씬 덜 낯설다. 영상은 “완전 이해”가 아니라 화면 흐름 확인용으로 본다.
+
 이 파일은 WWDC26 영상을 직접 볼 때 사용할 체크리스트다. 모든 세션을 영상으로 볼 필요는 없지만, 아래 세션은 화면 흐름이나 threat flow를 직접 보는 편이 학습 효율이 높다. 직접 본 세션도 `sessions/notes/` 요약본은 유지한다.
+
+## Understanding docs map
+
+전체 매핑은 [`outputs/understanding-index.md`](understanding-index.md)에 있다. 핵심만 빠르게 보면 다음과 같다.
+
+- App integrity/risk: [`app-attest.md`](../docs/understanding/app-attest.md), [`trust-insights.md`](../docs/understanding/trust-insights.md), [`agentic-security.md`](../docs/understanding/agentic-security.md)
+- Toolchain/build: [`xcode-27-toolchain.md`](../docs/understanding/xcode-27-toolchain.md), [`xcode-agents.md`](../docs/understanding/xcode-agents.md), [`swift-compiler.md`](../docs/understanding/swift-compiler.md), [`xcode-cloud.md`](../docs/understanding/xcode-cloud.md)
+- Diagnostics/testing: [`instruments-responsiveness.md`](../docs/understanding/instruments-responsiveness.md), [`device-hub.md`](../docs/understanding/device-hub.md), [`swift-testing.md`](../docs/understanding/swift-testing.md), [`metrickit.md`](../docs/understanding/metrickit.md)
+- Agentic/AI context: [`foundation-models.md`](../docs/understanding/foundation-models.md), [`agentic-instruments.md`](../docs/understanding/agentic-instruments.md)
+- Skim only: [`swiftui.md`](../docs/understanding/swiftui.md), [`uikit.md`](../docs/understanding/uikit.md)
+
 
 ## 1. Full video recommended
 

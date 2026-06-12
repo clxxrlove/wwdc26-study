@@ -2,6 +2,23 @@
 
 > 용도: WWDC26을 mobile app security / toolchain 관점에서 공부하기 위한 study note다. WWDC26 전체 요약이 아니라 **iOS 앱 보안 솔루션 / Xcode Toolchain / Swift Compiler / LLVM Pass** 관점에서 필요한 세션만 선별해 정리한다. 공개 출처 기반의 일반 기술 표현만 사용한다.
 
+## 0. How to use this brief
+
+이 문서는 마지막에 읽는 압축본이다. App Attest처럼 개념이 낯선 세션은 이 brief만 읽으면 이해하기 어렵다. 먼저 아래 이해 중심 문서를 읽고 다시 돌아온다.
+
+- Main guide: [`outputs/learning-guide.md`](learning-guide.md)
+- Session-to-doc index: [`outputs/understanding-index.md`](understanding-index.md)
+- Understanding docs index: [`docs/understanding/README.md`](../docs/understanding/README.md)
+- App Attest deep dive: [`docs/understanding/app-attest.md`](../docs/understanding/app-attest.md)
+- Xcode 27 toolchain view: [`docs/understanding/xcode-27-toolchain.md`](../docs/understanding/xcode-27-toolchain.md)
+- Xcode agents: [`docs/understanding/xcode-agents.md`](../docs/understanding/xcode-agents.md)
+- Swift compiler view: [`docs/understanding/swift-compiler.md`](../docs/understanding/swift-compiler.md)
+- Trust Insights: [`docs/understanding/trust-insights.md`](../docs/understanding/trust-insights.md)
+- Agentic security: [`docs/understanding/agentic-security.md`](../docs/understanding/agentic-security.md)
+- Glossary: [`docs/understanding/glossary.md`](../docs/understanding/glossary.md)
+
+이 brief의 역할은 “암기용 요약”이 아니라, deep-dive를 읽은 뒤 핵심 관점을 다시 묶는 것이다. B/C 세션 이해 문서도 추가되었으므로, 상세 이해는 `outputs/understanding-index.md`에서 해당 문서를 찾아 읽는다.
+
 ## 1. Scope
 
 현재 상세 노트 작성 완료:

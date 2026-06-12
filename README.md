@@ -8,15 +8,21 @@ WWDC26 내용을 무작정 전부 훑기보다, **모바일 앱 보안 솔루션
 
 최종 산출물은 다음입니다.
 
-1. `outputs/wwdc26-security-brief.md`
-   핵심 학습 브리프
-2. `outputs/direct-watch-guide.md`
+1. `outputs/learning-guide.md`
+   이해 중심 메인 학습 지도
+2. `outputs/understanding-index.md`
+   세션별로 어떤 이해 문서를 읽을지 정리한 인덱스
+3. `docs/understanding/README.md`와 `docs/understanding/*.md`
+   App Attest, Xcode, Swift, diagnostics, agentic security 등을 개념 단위로 설명하는 문서
+4. `outputs/direct-watch-guide.md`
    직접 영상을 볼 세션과 중점 체크리스트
-3. `outputs/study-questions.md`
+5. `outputs/wwdc26-security-brief.md`
+   전체 관점을 다시 압축한 학습 브리프
+6. `outputs/study-questions.md`
    후속 학습 질문 목록
-4. `outputs/watch-priority.md`
+7. `outputs/watch-priority.md`
    어떤 세션을 영상으로 보고, 어떤 세션은 transcript/selected chapter로 볼지 정리한 우선순위표
-5. `sessions/notes/*.md`
+8. `sessions/notes/*.md`
    Apple Developer Summary/Transcript 기반 세션별 노트
 
 ## Study focus
@@ -35,13 +41,23 @@ WWDC26 내용을 무작정 전부 훑기보다, **모바일 앱 보안 솔루션
 - Meet Trust Insights
 - Secure your app: mitigate risks to agentic features
 
+## Start here
+
+처음 열었을 때는 아래 순서만 따르면 됩니다.
+
+1. [`outputs/learning-guide.md`](outputs/learning-guide.md) — 전체 학습 순서와 “이해했다”의 기준을 봅니다.
+2. [`outputs/understanding-index.md`](outputs/understanding-index.md) — 세션별로 어떤 deep-dive 문서를 읽을지 고릅니다.
+3. [`outputs/direct-watch-guide.md`](outputs/direct-watch-guide.md) — 영상은 여기 있는 chapter만 가볍게 봅니다.
+4. [`docs/understanding/README.md`](docs/understanding/README.md) — 이해 문서를 문제 축별로 읽습니다.
+5. [`outputs/wwdc26-security-brief.md`](outputs/wwdc26-security-brief.md) — 마지막에 전체 관점을 다시 압축합니다.
+6. [`outputs/study-questions.md`](outputs/study-questions.md) — 후속 학습 질문을 정리합니다.
+
 ## How to study
 
-1. `outputs/watch-priority.md`로 전체 우선순위를 확인합니다.
-2. `outputs/direct-watch-guide.md`를 열고 직접 볼 세션과 chapter를 표시합니다.
-3. 직접 보기 전후로 `sessions/notes/*.md`를 읽습니다.
-4. `outputs/wwdc26-security-brief.md`에서 주제별로 다시 정리합니다.
-5. `outputs/study-questions.md`를 참고해 toolchain integration, compatibility matrix, diagnostics를 후속 학습 주제로 정리합니다.
+- 영상은 “화면 흐름 확인”용입니다.
+- 이해는 `docs/understanding/*.md`에서 합니다.
+- 세션 노트는 Apple session 기준 근거를 확인할 때만 봅니다.
+- 모르는 용어는 `docs/understanding/glossary.md`로 돌아갑니다.
 
 ## Evidence rule
 
@@ -61,12 +77,32 @@ wwdc26-security-harness/
     priority-rubric.md
     note-template.md
     final-brief-template.md
+    understanding/
+      README.md
+      app-attest.md
+      trust-insights.md
+      agentic-security.md
+      xcode-27-toolchain.md
+      xcode-agents.md
+      swift-compiler.md
+      xcode-cloud.md
+      instruments-responsiveness.md
+      device-hub.md
+      swift-testing.md
+      metrickit.md
+      foundation-models.md
+      agentic-instruments.md
+      swiftui.md
+      uikit.md
+      glossary.md
   registry/
     seed_sessions.csv
   sessions/
     raw/        # ignored; local Apple page/transcript cache only
     notes/      # concise notes
   outputs/
+    learning-guide.md
+    understanding-index.md
     wwdc26-security-brief.md
     direct-watch-guide.md
     study-questions.md
@@ -79,4 +115,4 @@ wwdc26-security-harness/
 ## Important rule
 
 목적은 “WWDC26 전체를 다 봤다”고 말하는 것이 아닙니다.
-목적은 **보안/toolchain 관점에서 WWDC26 내용을 이해하고, 후속 학습 질문으로 정리하는 것**입니다.
+목적은 **보안/toolchain 관점에서 WWDC26 내용을 이해하고, 왜 알아야 하는지와 후속 학습 질문으로 정리하는 것**입니다.

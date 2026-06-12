@@ -1,0 +1,16 @@
+priority_seed,title,url,reason
+A,What’s new in Xcode 27,https://developer.apple.com/videos/play/wwdc2026/258/,Xcode 27 build/dev workflow/agent/Device Hub/Instruments changes may affect toolchain-integrated security tooling
+A,"Xcode, agents, and you",https://developer.apple.com/videos/play/wwdc2026/259/,Xcode agent workflow/plugins/tools may affect developer tooling ecosystem and harness direction
+A,What’s new in Swift,https://developer.apple.com/videos/play/wwdc2026/262/,Swift 6.3/6.4 compiler/language/runtime/performance changes may affect compiler-level transformations
+A,Secure your apps with App Attest,https://developer.apple.com/videos/play/wwdc2026/201/,Directly related to app integrity unauthorized modification re-signing and server-side validation
+A,Meet Trust Insights,https://developer.apple.com/videos/play/wwdc2026/379/,New iOS 27 trust/social-engineering framework relevant to mobile security tooling positioning
+A,Secure your app: mitigate risks to agentic features,https://developer.apple.com/videos/play/wwdc2026/347/,Threat modeling and mitigations for agentic features relevant to modern mobile app security
+B,"Profile, fix, and verify: Improve app responsiveness with Instruments",https://developer.apple.com/videos/play/wwdc2026/268/,Diagnostics/profiling workflow useful for target-app compatibility and performance investigation
+B,Get the most out of Device Hub,https://developer.apple.com/videos/play/wwdc2026/260/,Xcode device/simulator workflow may affect testing and target-environment reproduction flows
+B,"Build, deliver, and automate with Xcode Cloud",https://developer.apple.com/videos/play/wwdc2026/261/,Build automation and delivery changes may affect CI compatibility assumptions
+B,Migrate to Swift Testing,https://developer.apple.com/videos/play/wwdc2026/267/,Testing workflow change relevant to target projects and tooling verification
+B,Debug and profile agentic app experiences with Instruments,https://developer.apple.com/videos/play/wwdc2026/243/,Useful for agentic app diagnostics/security context but indirect
+B,Meet the new MetricKit,https://developer.apple.com/videos/play/wwdc2026/222/,Operational diagnostics relevant to post-protection performance/crash monitoring
+C,What’s new in SwiftUI,https://developer.apple.com/videos/play/wwdc2026/269/,General app UI changes; skim unless compiler/runtime implications appear
+C,Modernize your UIKit app,https://developer.apple.com/videos/play/wwdc2026/278/,General app architecture context; low direct compiler/security relevance
+C,What’s new in Foundation Models framework,https://developer.apple.com/videos/play/wwdc2026/241/,Relevant only if threat modeling or app-side AI security is needed

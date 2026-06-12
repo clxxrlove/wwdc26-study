@@ -1,0 +1,9 @@
+
+*.log
+*.pyc
+.DS_Store
+.env
+.omx/
+__pycache__/
+sessions/raw/*.html
+sessions/raw/*.txt
